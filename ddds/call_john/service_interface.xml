@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service_interface>
+
+  <action name="Call">
+    <parameters>
+      <parameter predicate="selected_contact" format="value"/>
+      <parameter predicate="phone_type" format="value"/>
+    </parameters>
+    <failure_reasons/>
+    <target>
+      <http endpoint="http://ddds-http-service/action_success_response"/>
+    </target>
+  </action>
+
+  <query name="phone_number">
+    <parameters>
+      <parameter predicate="selected_contact" format="value"/>
+      <parameter predicate="phone_type" format="value"/>
+    </parameters>
+    <target>
+      <http endpoint="http://ddds-http-service/phone_number"/>
+    </target>
+  </query>
+
+  <validator name="PhoneNumberAvailable">
+    <parameters>
+      <parameter predicate="selected_contact" format="value"/>
+    </parameters>
+    <target>
+      <http endpoint="http://ddds-http-service/phone_number_available"/>
+    </target>
+  </validator>
+
+</service_interface>
