@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <grammar>
 
-  <greeting>Hi! What would you like to do?</greeting>
+  <greeting>Hi!</greeting>
 
   <action name="top">
     <one-of>
