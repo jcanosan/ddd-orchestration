@@ -21,7 +21,7 @@
     },
     {
         "match": "report(ServiceResultProposition(Call, [selected_contact(&individual), phone_type(&individual)], SuccessfulServiceAction()))",
-        "utterance": "Calling @selected_contact's @phone_type.|I am calling @selected_contact."
+        "utterance": "Calling @selected_contact's @phone_type."
     },
     {
         "match": "answer(phone_number(&individual))",
