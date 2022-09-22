@@ -1,90 +1,54 @@
 [
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_1))",
+        "current_plan_item": "findout(?X.phone_type(X), set([phone_type(mobile), phone_type(work), phone_type(home)]))",
+        "semantic_expression": "answer(phone_type(mobile))",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Some text to show on the button"
+                    "value": "Mobile"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://some-image-url"
+                    "value": "https://www.seekpng.com/png/detail/21-212920_phone-icon-blue-mobile-icon.png"
                 }
             ]
         }
     },
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_2))",
+        "current_plan_item": "findout(?X.phone_type(X), set([phone_type(mobile), phone_type(work), phone_type(home)]))",
+        "semantic_expression": "answer(phone_type(work))",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Some other text to show on the button"
+                    "value": "Work phone"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://some-other-image-url"
+                    "value": "https://media.gettyimages.com/vectors/office-telephone-icon-on-a-round-button-roundseries-vector-id490610396"
                 }
             ]
         }
     },
     {
-        "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
-        "semantic_expression": "answer(example_predicate(individual_3))",
+        "current_plan_item": "findout(?X.phone_type(X), set([phone_type(mobile), phone_type(work), phone_type(home)]))",
+        "semantic_expression": "answer(phone_type(home))",
         "alternative": {
             "visual_information": [
                 {
                     "attribute": "name",
                     "type": "text/plain",
-                    "value": "Another text to show on the button"
+                    "value": "Home"
                 },
                 {
                     "attribute": "image",
                     "type": "image/jpeg",
-                    "value": "https://another-image-url"
-                }
-            ]
-        }
-    },
-    {
-        "current_plan_item": "findout(?set([goal(perform(example_action_1)), goal(perform(example_action_2))]))",
-        "semantic_expression": "request(example_action_1)",
-        "alternative": {
-            "visual_information": [
-                {
-                    "attribute": "name",
-                    "type": "text/plain",
-                    "value": "Button text"
-                },
-                {
-                    "attribute": "image",
-                    "type": "image/jpeg",
-                    "value": "https://image-url"
-                }
-            ]
-        }
-    },
-    {
-        "current_plan_item": "findout(?set([goal(perform(example_action_1)), goal(perform(example_action_2))]))",
-        "semantic_expression": "request(example_action_2)",
-        "alternative": {
-            "visual_information": [
-                {
-                    "attribute": "name",
-                    "type": "text/plain",
-                    "value": "Button text"
-                },
-                {
-                    "attribute": "image",
-                    "type": "image/jpeg",
-                    "value": "https://image-url"
+                    "value": "https://media.istockphoto.com/vectors/landline-telephone-icon-silhouette-vector-id976146730?k=6&m=976146730&s=170667a&w=0&h=9SR-UJsdM-S0fV1gKwiPbTCxurci_NeXO5hdPj4GTHE="
                 }
             ]
         }

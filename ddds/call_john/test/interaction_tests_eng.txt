@@ -6,7 +6,7 @@ S> Hi! What would you like to do?
 U> make a call
 S> Which contact?
 U> john
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> mobile
 S> Calling John's mobile
 
@@ -18,7 +18,7 @@ S> Calling John's mobile
 --- call (over answering)
 S> Hi! What would you like to do?
 U> call John
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> mobile
 S> Calling John's mobile
 
@@ -27,7 +27,7 @@ S> Hi! What would you like to do?
 U> I want to know a contact's number
 S> Which contact?
 U> Mary
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> work
 S> It's 0784736475.
 
@@ -39,25 +39,25 @@ S> It's 0706574839.
 --- phone number (over-answering)
 S> Hi! What would you like to do?
 U> what is Mary's number
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> work phone
 S> It's 0784736475.
 
 --- topic switch
 S> Hi! What would you like to do?
 U> call john
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> what is john's work number
 S> It's 0736582934.
 
 --- context recall
 S> Hi! What would you like to do?
 U> call john
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> what is john's work number
 S> It's 0736582934.
 U>
-S> Returning to call. Which phone?
+S> Returning to call. Which phone : mobile, work or home?
 U> mobile
 S> Calling John's mobile
 
@@ -66,7 +66,7 @@ S> Hi! What would you like to do?
 U> John
 S> Do you want to call or know the contact's phone number?
 U> call
-S> Which phone?
+S> Which phone : mobile, work or home?
 U> home
 S> Calling John's home
 
